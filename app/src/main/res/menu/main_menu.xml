@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/action_hw_filter"
+        android:title="HW/SW"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_type_filter"
+        android:title="Audio/Video"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_copy"
+        android:title="Copy"
+        app:showAsAction="never" />
+</menu>
